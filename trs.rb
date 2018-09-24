@@ -49,7 +49,11 @@ def error_with_message(message)
   )
 end
 
-langs = ['en', 'ja']
+langs = [
+  "en", "af", "ar", "bg", "bn", "bs", "ca", "zh-Hans", "cs", "cy", "da", "de", "el", "es", "et", "fa", "fi", "ht", "fr", "he", "hi", "hr",
+  "hu", "id", "is", "it", "ja", "ko", "lt", "lv", "mt", "ms", "mww", "nl", "nb", "pl", "pt", "ro", "ru", "sk", "sl", "sr-Latn", "sv", "sw",
+  "ta", "th", "tlh", "tr", "uk", "ur", "vi"
+]
 key = ENV['SUBSCRIPTIOM_KEY']
 
 words = ARGV[0].split(' ')
